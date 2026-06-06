@@ -1,0 +1,326 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2024-01-10T10:00:00Z",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=Admin+User&background=ef4444&color=fff",
+      "permissions": [
+        "all"
+      ],
+      "lastLogin": "2026-06-01T07:25:31.169Z",
+      "loginCount": 7,
+      "lastLogout": "2026-06-01T07:24:44.475Z"
+    },
+    {
+      "id": "2",
+      "name": "ZAKARIA ADOW",
+      "email": "manager@example.com",
+      "password": "manager123",
+      "role": "manager",
+      "createdAt": "2024-01-20T10:00:00Z",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=ZAKARIA+ADOW&background=8b5cf6&color=fff",
+      "department": "Education & Technology",
+      "managedCourses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "managedInstructors": [
+        1,
+        2,
+        3
+      ],
+      "lastLogin": "2026-05-27T09:25:31.464Z",
+      "loginCount": 2,
+      "lastLogout": "2026-05-27T09:33:58.628Z"
+    },
+    {
+      "id": "yzcMCL7oiFc",
+      "name": "abi",
+      "email": "admin@zacks.com",
+      "password": "student123",
+      "role": "student",
+      "createdAt": "2026-06-01T07:12:18.368Z",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=abi&background=3b82f6&color=fff",
+      "lastLogin": null,
+      "loginCount": 0
+    },
+    {
+      "id": "mK1kBnmmPLk",
+      "name": "zakaria adow",
+      "email": "zakari5a@example.com",
+      "password": "123456",
+      "role": "student",
+      "createdAt": "2026-06-01T07:25:11.275Z",
+      "status": "active",
+      "avatar": "https://ui-avatars.com/api/?name=zakaria%20adow&background=3b82f6&color=fff",
+      "lastLogin": null,
+      "loginCount": 0,
+      "lastLogout": "2026-06-01T07:25:17.851Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "eFDrsfy4Qkw",
+      "oldEmail": "admin@zacks.com",
+      "name": "abi",
+      "email": "admin@zacks.com",
+      "phone": "",
+      "address": "",
+      "status": "inactive",
+      "studentId": "STU002",
+      "enrolledCourses": [],
+      "joinDate": "2026-06-01T07:12:18.233Z",
+      "updatedAt": "2026-06-01T07:26:14.609Z"
+    },
+    {
+      "id": "yEYPQR0cgLE",
+      "name": "zakaria adow",
+      "email": "zakari5a@example.com",
+      "studentId": "STUNaN",
+      "enrolledCourses": [],
+      "paymentHistory": [],
+      "status": "active",
+      "joinDate": "2026-06-01T07:25:11.297Z",
+      "userId": "mK1kBnmmPLk"
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "title": "Advanced Web Development",
+      "description": "Master React, Node.js, and modern web technologies",
+      "instructor": "Dr. James Wilson",
+      "instructorId": 1,
+      "category": "Technology",
+      "level": "Advanced",
+      "duration": "60 hours",
+      "price": 79.99,
+      "rating": 4.9,
+      "students": 1,
+      "status": "published",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=200&fit=crop"
+    },
+    {
+      "id": "2",
+      "title": "Data Science & Machine Learning",
+      "description": "Complete data science bootcamp with Python and AI",
+      "instructor": "Prof. Maria Garcia",
+      "instructorId": 1,
+      "category": "Data Science",
+      "level": "Intermediate",
+      "duration": "80 hours",
+      "price": 89.99,
+      "rating": 4.8,
+      "students": 1,
+      "status": "published",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=200&fit=crop"
+    },
+    {
+      "id": "3",
+      "title": "Cloud Computing with AWS",
+      "description": "Master AWS, DevOps, and cloud architecture",
+      "instructor": "Robert Taylor",
+      "instructorId": 2,
+      "category": "Cloud Computing",
+      "level": "Advanced",
+      "duration": "50 hours",
+      "price": 99.99,
+      "rating": 4.7,
+      "students": 1,
+      "status": "published",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=200&fit=crop"
+    },
+    {
+      "id": "4",
+      "title": "Mobile App Development",
+      "description": "Build iOS and Android apps with React Native",
+      "instructor": "Lisa Anderson",
+      "instructorId": 3,
+      "category": "Mobile Development",
+      "level": "Intermediate",
+      "duration": "45 hours",
+      "price": 69.99,
+      "rating": 4.6,
+      "students": 1,
+      "status": "published",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=200&fit=crop"
+    }
+  ],
+  "payments": [
+    {
+      "id": "BNY57jdvGSc",
+      "studentId": null,
+      "studentName": "",
+      "courseId": 2,
+      "courseName": "",
+      "amount": null,
+      "paymentMethod": "credit_card",
+      "paymentDate": "2026-05-27T09:38:32.090Z",
+      "transactionId": "TXN1779874712091834",
+      "status": "completed"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "courseName": "Advanced Web Development",
+      "title": "React Component Project",
+      "description": "Build a fully functional React component library",
+      "dueDate": "2024-02-15T23:59:59Z",
+      "totalPoints": 100,
+      "submissions": []
+    },
+    {
+      "id": "2",
+      "courseId": 1,
+      "courseName": "Advanced Web Development",
+      "title": "Node.js API Development",
+      "description": "Create a RESTful API with Node.js and Express",
+      "dueDate": "2024-02-20T23:59:59Z",
+      "totalPoints": 100,
+      "submissions": []
+    },
+    {
+      "id": "3",
+      "courseId": 2,
+      "courseName": "Data Science & Machine Learning",
+      "title": "Data Analysis Project",
+      "description": "Analyze a dataset using Pandas and create visualizations",
+      "dueDate": "2024-02-25T23:59:59Z",
+      "totalPoints": 100,
+      "submissions": []
+    }
+  ],
+  "results": [
+    {
+      "id": "z-4I17XAOXk",
+      "studentId": null,
+      "studentName": "",
+      "courseId": 1,
+      "courseName": "",
+      "totalScore": 5657,
+      "percentage": 87.2,
+      "grade": "A",
+      "completedAssignments": 12,
+      "totalAssignments": 12,
+      "quizScores": [
+        6767
+      ],
+      "finalExam": 87.2,
+      "status": "passing",
+      "feedback": "j",
+      "createdAt": "2026-05-27T09:38:17.907Z"
+    },
+    {
+      "id": "yjDL1CCoSaw",
+      "studentId": null,
+      "studentName": "",
+      "courseId": 1,
+      "courseName": "",
+      "totalScore": 675,
+      "percentage": 79,
+      "grade": "A+",
+      "completedAssignments": 10,
+      "totalAssignments": 10,
+      "quizScores": [
+        6767
+      ],
+      "finalExam": 79,
+      "status": "passing",
+      "feedback": "67667",
+      "createdAt": "2026-06-01T04:30:21.121Z"
+    }
+  ],
+  "instructors": [
+    {
+      "id": "1",
+      "name": "Dr. James Wilson",
+      "email": "james.wilson@learnhub.com",
+      "specialization": "Web Development",
+      "students": 0,
+      "courses": [
+        1,
+        2
+      ],
+      "rating": 4.9,
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Prof. Maria Garcia",
+      "email": "maria.garcia@learnhub.com",
+      "specialization": "Data Science",
+      "students": 0,
+      "courses": [
+        2
+      ],
+      "rating": 4.8,
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Robert Taylor",
+      "email": "robert.taylor@learnhub.com",
+      "specialization": "Cloud Computing",
+      "students": 0,
+      "courses": [
+        3
+      ],
+      "rating": 4.7,
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Lisa Anderson",
+      "email": "lisa.anderson@learnhub.com",
+      "specialization": "Mobile Development",
+      "students": 0,
+      "courses": [
+        4
+      ],
+      "rating": 4.6,
+      "status": "active"
+    }
+  ],
+  "enrollments": [],
+  "reports": [
+    {
+      "id": "1",
+      "type": "revenue",
+      "data": {
+        "monthly": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "total": 0,
+        "growth": 0
+      },
+      "generatedBy": "admin",
+      "generatedAt": "2024-01-30T10:00:00Z"
+    }
+  ],
+  "systemSettings": {
+    "siteName": "LearnHub",
+    "maintenanceMode": false,
+    "allowRegistrations": true,
+    "defaultUserRole": "student",
+    "contactEmail": "support@learnhub.com",
+    "phoneNumber": "+1 (555) 123-4567",
+    "address": "123 Learning Street, Education City, EC 12345"
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
